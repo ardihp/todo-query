@@ -1,3 +1,5 @@
-export default function Home() {
-  return <p>hue</p>;
+import ListTodoView from "@/section/list";
+
+export default function ListTodoPage() {
+  return <ListTodoView />;
 }
